@@ -8,9 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark:"",
+        light:"",
+        accent:"",
+        accentDark:"",
+        gray:"",
       },
+      backgroundImage: {
+        bannerImg: "url('/construction.jpeg')",
+        blackOverlay:"linear-gradient(to bottom, rgba(0,0,0) 0%, rgba(0,0,0,0,8) 100%)"
+      },
+      fontFamily:{
+        mr:["var(--font-mr)"],
+        in:["var(--font-in)"],
+      }
     },
   },
   plugins: [],
