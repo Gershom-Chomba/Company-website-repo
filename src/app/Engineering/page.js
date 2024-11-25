@@ -54,7 +54,7 @@ const EngineeringAndTechnology = () => {
 
   return (
     <div className="bg-white py-8 px-4 sm:px-8 lg:px-16">
-      <h1 className="text-green-600 text-3xl font-bold text-center mb-8">Engineering and Technology</h1>
+      <h1 className="text-green-600 text-3xl font-bold text-center mb-8">NjovuEngineering and Technology</h1>
 
       {/* Engineering Section */}
       <section className="mb-12">
